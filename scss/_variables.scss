@@ -4,6 +4,7 @@
 // consistent naming. Ex: $nav-link-disabled-color and $modal-content-box-shadow-xs.
 
 // Color system
+@import "kidica";
 
 $white:    #fff !default;
 $gray-100: #f8f9fa !default;
@@ -66,14 +67,14 @@ $colors: map-merge(
   $colors
 );
 
-$primary:       $blue !default;
+$primary:       $kidica-purple !default;
 $secondary:     $gray-600 !default;
-$success:       $green !default;
+$success:       $kidica-green !default;
 $info:          $cyan !default;
 $warning:       $yellow !default;
 $danger:        $red !default;
-$light:         $gray-100 !default;
-$dark:          $gray-800 !default;
+$light:         $kidica-lightgrey !default;
+$dark:          $kidica-grey !default;
 
 $theme-colors: () !default;
 // stylelint-disable-next-line scss/dollar-variable-default
